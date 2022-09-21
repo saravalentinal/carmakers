@@ -6,7 +6,7 @@ const mainRoutes = require('./routes/mainRouter');
 const productRoutes = require('./routes/productRouter');
 
 const APIproductRoutes = require('./routes/APIrouter/productRouterAPI');
-const APIusersRoutes = require('./routes/APIrouter/usersRouterApi');
+const APIusersRoutes = require('./routes/APIrouter/usersRouterAPI');
 
 const usersRoutes = require('./routes/usersRouter');
 const session = require('express-session');
