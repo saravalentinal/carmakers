@@ -5,8 +5,8 @@ const path = require('path');
 const mainRoutes = require('./routes/mainRouter');
 const productRoutes = require('./routes/productRouter');
 
-const APIproductRoutes = require('./routes/APIrouter/productRouterAPI');
-const APIusersRoutes = require('./routes/APIrouter/usersRouterApi');
+const APIproductRoutes = require('./app/src/routes/APIrouter/productRouterAPI.js');
+const APIusersRoutes = require('./app/src/routes/APIrouter/usersRouterApi.js');
 
 const usersRoutes = require('./routes/usersRouter');
 const session = require('express-session');
