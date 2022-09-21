@@ -10,8 +10,8 @@ COPY . .
 
 COPY . /app
 
-ENV PORT=8080
+ENV PORT=4040
 
-EXPOSE 8080
+EXPOSE 4040
 
 CMD ["npm","start"]

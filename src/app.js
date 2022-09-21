@@ -59,7 +59,7 @@ app.use('/api', APIproductRoutes);
 })*/
 // Para Heroku
 
-let puerto = 4000
+let puerto = 4040
 app.listen(process.env.PORT||puerto, function(){
     console.log('Servidor funcionando '+ puerto);
 });
