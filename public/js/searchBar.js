@@ -14,7 +14,7 @@ searchBar.addEventListener("keyup", (e) => {
 
 const loadProducts = async (psSearchString) => {
   try {
-    const res = await fetch("http://localhost:4000/api/products");
+    const res = await fetch("http://localhost:8080/api/products");
     const productsJSON = await res.json();
     products = productsJSON.data;
     // se agrega filtrado de productos 
