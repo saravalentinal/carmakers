@@ -11,7 +11,7 @@ const UltimoUsuario = ()=>{
     }, [])
 
     const obtenerDatos = async () =>{
-        const data = await fetch('http://localhost:4000/api/usuarios')
+        const data = await fetch("http://45.9.188.254:4040/api/usuarios")
         const usuarios = await data.json()
        setPersonas(usuarios.data)
 

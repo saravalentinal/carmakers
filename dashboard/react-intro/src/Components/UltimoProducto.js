@@ -11,7 +11,7 @@ const UltimoProducto = ()=>{
     }, [])
 
     const obtenerDatos = async () =>{
-        const data = await fetch('http://localhost:4000/api/products')
+        const data = await fetch("http://45.9.188.254:4040/api/products")
         const productos = await data.json()
        setProducto(productos.data)
 

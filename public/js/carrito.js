@@ -10,7 +10,7 @@ for (let i in carrito) {
 
 //console.log(carrito)
 
-const res = await fetch('http://localhost:4000/api/products');
+const res = await fetch('http://45.9.188.254:4040/api/products');
 const productsJSON = await res.json();
 products = productsJSON.data;
 var elementSelected = []
