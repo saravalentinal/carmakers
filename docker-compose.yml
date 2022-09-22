@@ -13,8 +13,6 @@ services:
       environment: 
         MYSQL_ROOT_PASSWORD: secret
         MYSQL_DATABASE: carmakers
-      networks:
-      - app-network
 
   # Aplicacion Node
     app:
@@ -33,10 +31,3 @@ services:
         MYSQL_DB: carmakers
       depends_on:
         - mysql
-      networks:
-        - app-network
-      
-    # redes de los contenedores
-    networks:
-      app-network:
-        driver: bridge
